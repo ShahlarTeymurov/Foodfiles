@@ -113,6 +113,15 @@ header .icon i {
 #thehome .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 992px) {
+  #thehome .textbox {
+    width: 400px;
+  }
+  #thehome .imgbox {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
 
 #works h1 {
   font-weight: 700;
