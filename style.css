@@ -80,10 +80,10 @@ header .icon i {
 }
 @media screen and (max-width: 992px) {
   #beautiful .box {
-    width: 100px;
+    width: 100%;
   }
-  #beautiful .imgbox {
-    width: 100px;
+  #beautiful .box .imgbox {
+    width: 100%;
     margin-top: 20px;
   }
 }
