@@ -169,8 +169,7 @@ header .icon i {
 }
 #browse .textbox h4 span {
   color: #45cbec;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 #browse .btn {
   font-size: 18px;
