@@ -162,6 +162,16 @@ header .icon i {
   color: #676f8b;
   line-height: 1.3;
 }
+@media screen and (max-width: 992px) {
+  #works .box {
+    position: relative;
+  }
+  #works .box .imgbox {
+    position: absolute;
+    right: 10px;
+    width: 250px;
+  }
+}
 
 #browse .textbox {
   width: 500px;
