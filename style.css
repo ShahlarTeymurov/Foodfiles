@@ -79,6 +79,9 @@ header .icon i {
   font-size: 20px;
 }
 @media screen and (max-width: 768px) {
+  #beautiful .box h1 {
+    font-size: 50px;
+  }
   #beautiful .imgbox {
     margin-top: 20px;
   }
