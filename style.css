@@ -112,6 +112,33 @@ header .icon i {
 #thehome .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 1200px) {
+  #thehome .imgbox {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #thehome .imgbox {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #thehome .imgbox {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #thehome .textbox h1 {
+    font-size: 45px;
+    width: 255px;
+  }
+  #thehome .textbox h5 {
+    font-size: 15px;
+  }
+  #thehome .imgbox {
+    width: 250px;
+  }
+}
 
 #works h1 {
   font-weight: 700;
