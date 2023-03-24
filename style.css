@@ -163,13 +163,23 @@ header .icon i {
   line-height: 1.3;
 }
 @media screen and (max-width: 992px) {
-  #works .box {
-    position: relative;
-  }
   #works .box .imgbox {
-    position: absolute;
-    right: 10px;
     width: 250px;
+  }
+  #works .box .textbox {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #works .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  #works h1 {
+    font-size: 45px;
   }
 }
 
