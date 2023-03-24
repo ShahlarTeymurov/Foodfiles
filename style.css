@@ -318,6 +318,37 @@ header .icon i {
   padding: 13px 34px;
   border-radius: 5px;
 }
+@media screen and (max-width: 992px) {
+  #order .imgbox {
+    width: auto;
+  }
+  #order .textbox h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #order .textbox {
+    text-align: center;
+  }
+  #order .textbox h1 {
+    font-size: 38px;
+  }
+  #order .textbox h5 {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  #order .textbox h1 {
+    font-size: 30px;
+  }
+  #order .textbox h5 {
+    font-size: 18px;
+  }
+  #order .textbox .btn {
+    font-size: 17px;
+    padding: 11px 26px;
+  }
+}
 
 #callour {
   background-color: #f1f8f9;
