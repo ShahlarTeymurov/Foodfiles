@@ -422,4 +422,29 @@ header .icon i {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media screen and (max-width: 992px) {
+  #support .textbox h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #support .imgbox {
+    width: 514px;
+    margin-bottom: 20px;
+  }
+  #support .textbox h1 {
+    font-size: 30px;
+  }
+  #support .textbox .btn {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #support .imgbox {
+    width: auto;
+  }
+  #support .textbox h1 {
+    supportfont-size: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
