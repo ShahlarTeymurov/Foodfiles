@@ -373,6 +373,35 @@ header .icon i {
 #callour .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 992px) {
+  #callour .textbox h1 {
+    font-size: 55px;
+  }
+  #callour .imgbox {
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #callour .imgbox {
+    width: 400px;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #callour .textbox h1 {
+    font-size: 40px;
+  }
+  #callour .textbox h5 {
+    font-size: 18px;
+  }
+  #callour .textbox .btn {
+    font-size: 17px;
+    padding: 13px 20px;
+  }
+  #callour .imgbox {
+    width: auto;
+  }
+}
 
 #support .textbox h1 {
   font-size: 60px;
