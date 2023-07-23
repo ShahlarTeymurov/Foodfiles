@@ -413,6 +413,9 @@ header .icon i {
   }
 }
 
+#support .textbox {
+  border-radius: 20px;
+}
 #support .textbox h1 {
   font-size: 60px;
   font-weight: 700;
@@ -432,6 +435,9 @@ header .icon i {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+#support .imgbox img {
+  border-radius: 20px;
 }
 @media screen and (max-width: 992px) {
   #support .textbox h1 {
